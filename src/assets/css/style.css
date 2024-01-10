@@ -1176,6 +1176,10 @@ body {
   line-height: 1.25;
 }
 
+.leading-\[1\.2\]{
+  line-height: 1.2;
+}
+
 .-tracking-\[2px\]{
   letter-spacing: -2px;
 }
