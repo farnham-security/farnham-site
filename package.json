@@ -1,7 +1,7 @@
 {
   "name": "farnham-site",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/config/tailwind.css -o ./src/assets/css/style.css -w"
+    "build-css": "tailwindcss -i ./src/config/tailwind.css -o ./src/assets/css/style.css -w --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
