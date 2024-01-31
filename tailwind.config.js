@@ -1,12 +1,6 @@
 module.exports = {
-  content: ["./*.html", "./src/assets/**/*.js"],
+  content: ["./*.html"],
   theme: {
-    screens: {
-      sm: "540px",
-      md: "720px",
-      lg: "960px",
-      xl: "1140px"
-    },
     container: {
       center: true,
       padding: "16px",
@@ -22,9 +16,11 @@ module.exports = {
         box: "0px 0px 40px 0px rgba(0, 0, 0, 0.08)"
       },
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    screens: {
+      sm: "540px",
+      md: "720px",
+      lg: "960px",
+      xl: "1140px"
+    },
+  }
 }
