@@ -1,4 +1,4 @@
-## Farnham Site
+## Public Site
 
 The static site for farnham.io built with HTML and Tailwind CSS
 
